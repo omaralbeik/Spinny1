@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		073C684A1B3D6B5200AC5C18 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C68491B3D6B5200AC5C18 /* Shared.swift */; };
+		074194381B3ECB6C003BE040 /* count.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 074194371B3ECB6C003BE040 /* count.mp3 */; };
+		0756D8441B3C6BB6008C978D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0756D8431B3C6BB6008C978D /* Extensions.swift */; };
+		0756D8461B3C6BE8008C978D /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0756D8451B3C6BE8008C978D /* PlayScene.swift */; };
+		0756D8481B3C6C03008C978D /* MoreScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0756D8471B3C6C03008C978D /* MoreScene.swift */; };
+		0756D84B1B3C6C8A008C978D /* TutorialScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0756D84A1B3C6C8A008C978D /* TutorialScene.swift */; };
+		0756D84D1B3C6CD6008C978D /* Physics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0756D84C1B3C6CD6008C978D /* Physics.swift */; };
+		0756D84F1B3C6D2B008C978D /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0756D84E1B3C6D2B008C978D /* Wheel.swift */; };
+		0756D8511B3C6D4F008C978D /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0756D8501B3C6D4F008C978D /* Ball.swift */; };
+		07B2419C1B3D9B6B00167FB6 /* MagicDarkParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 07B2419B1B3D9B6B00167FB6 /* MagicDarkParticle.sks */; };
+		07B241A11B3DE5A800167FB6 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07B2419D1B3DE5A800167FB6 /* music.mp3 */; };
+		07B241A21B3DE5A800167FB6 /* hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07B2419E1B3DE5A800167FB6 /* hit.mp3 */; };
+		07B241A31B3DE5A800167FB6 /* fail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07B2419F1B3DE5A800167FB6 /* fail.mp3 */; };
+		07B241A81B3DE76700167FB6 /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07B241A61B3DE76700167FB6 /* pop.mp3 */; };
+		07B241AA1B3DEA0C00167FB6 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07B241A91B3DEA0C00167FB6 /* click.mp3 */; };
 		07BAF55A1B3B4DF60041478A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BAF5591B3B4DF60041478A /* AppDelegate.swift */; };
 		07BAF55C1B3B4DF60041478A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 07BAF55B1B3B4DF60041478A /* GameScene.sks */; };
 		07BAF55E1B3B4DF60041478A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BAF55D1B3B4DF60041478A /* GameScene.swift */; };
@@ -15,6 +30,17 @@
 		07BAF5651B3B4DF60041478A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07BAF5641B3B4DF60041478A /* Images.xcassets */; };
 		07BAF5681B3B4DF60041478A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07BAF5661B3B4DF60041478A /* LaunchScreen.xib */; };
 		07BAF5741B3B4DF70041478A /* Spinny_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BAF5731B3B4DF70041478A /* Spinny_Tests.swift */; };
+		07CBAE301B402D6700FAE444 /* miss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07CBAE2F1B402D6700FAE444 /* miss.mp3 */; };
+		07CC03FB1B3D89A7009E71CE /* BlueParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 07CC03F91B3D89A7009E71CE /* BlueParticle.sks */; };
+		07CC04031B3D8C7F009E71CE /* YellowParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 07CC04001B3D8C7F009E71CE /* YellowParticle.sks */; };
+		07CC04041B3D8C7F009E71CE /* GreenParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 07CC04011B3D8C7F009E71CE /* GreenParticle.sks */; };
+		07CC04051B3D8C7F009E71CE /* RedParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 07CC04021B3D8C7F009E71CE /* RedParticle.sks */; };
+		07CC04091B3D8C8E009E71CE /* greenSpark.png in Resources */ = {isa = PBXBuildFile; fileRef = 07CC04061B3D8C8E009E71CE /* greenSpark.png */; };
+		07CC040A1B3D8C8E009E71CE /* yellowSpark.png in Resources */ = {isa = PBXBuildFile; fileRef = 07CC04071B3D8C8E009E71CE /* yellowSpark.png */; };
+		07CC040B1B3D8C8E009E71CE /* redSpark.png in Resources */ = {isa = PBXBuildFile; fileRef = 07CC04081B3D8C8E009E71CE /* redSpark.png */; };
+		07CC040D1B3D8EBF009E71CE /* blueSpark.png in Resources */ = {isa = PBXBuildFile; fileRef = 07CC040C1B3D8EBF009E71CE /* blueSpark.png */; };
+		07CC04101B3D935C009E71CE /* MagicParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 07CC040E1B3D935C009E71CE /* MagicParticle.sks */; };
+		07CC04111B3D935C009E71CE /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 07CC040F1B3D935C009E71CE /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +54,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		073C68491B3D6B5200AC5C18 /* Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		074194371B3ECB6C003BE040 /* count.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = count.mp3; sourceTree = "<group>"; };
+		0756D8431B3C6BB6008C978D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0756D8451B3C6BE8008C978D /* PlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayScene.swift; sourceTree = "<group>"; };
+		0756D8471B3C6C03008C978D /* MoreScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreScene.swift; sourceTree = "<group>"; };
+		0756D84A1B3C6C8A008C978D /* TutorialScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialScene.swift; sourceTree = "<group>"; };
+		0756D84C1B3C6CD6008C978D /* Physics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Physics.swift; sourceTree = "<group>"; };
+		0756D84E1B3C6D2B008C978D /* Wheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
+		0756D8501B3C6D4F008C978D /* Ball.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
+		07B2419B1B3D9B6B00167FB6 /* MagicDarkParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MagicDarkParticle.sks; sourceTree = "<group>"; };
+		07B2419D1B3DE5A800167FB6 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		07B2419E1B3DE5A800167FB6 /* hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hit.mp3; sourceTree = "<group>"; };
+		07B2419F1B3DE5A800167FB6 /* fail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fail.mp3; sourceTree = "<group>"; };
+		07B241A61B3DE76700167FB6 /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
+		07B241A91B3DEA0C00167FB6 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
 		07BAF5541B3B4DF60041478A /* Spinny!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spinny!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07BAF5581B3B4DF60041478A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07BAF5591B3B4DF60041478A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +81,17 @@
 		07BAF56D1B3B4DF70041478A /* Spinny!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spinny!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07BAF5721B3B4DF70041478A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07BAF5731B3B4DF70041478A /* Spinny_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinny_Tests.swift; sourceTree = "<group>"; };
+		07CBAE2F1B402D6700FAE444 /* miss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = miss.mp3; sourceTree = "<group>"; };
+		07CC03F91B3D89A7009E71CE /* BlueParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BlueParticle.sks; sourceTree = "<group>"; };
+		07CC04001B3D8C7F009E71CE /* YellowParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = YellowParticle.sks; sourceTree = "<group>"; };
+		07CC04011B3D8C7F009E71CE /* GreenParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GreenParticle.sks; sourceTree = "<group>"; };
+		07CC04021B3D8C7F009E71CE /* RedParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RedParticle.sks; sourceTree = "<group>"; };
+		07CC04061B3D8C8E009E71CE /* greenSpark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenSpark.png; sourceTree = "<group>"; };
+		07CC04071B3D8C8E009E71CE /* yellowSpark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowSpark.png; sourceTree = "<group>"; };
+		07CC04081B3D8C8E009E71CE /* redSpark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redSpark.png; sourceTree = "<group>"; };
+		07CC040C1B3D8EBF009E71CE /* blueSpark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueSpark.png; sourceTree = "<group>"; };
+		07CC040E1B3D935C009E71CE /* MagicParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MagicParticle.sks; sourceTree = "<group>"; };
+		07CC040F1B3D935C009E71CE /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +112,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0756D8491B3C6C23008C978D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				07BAF55D1B3B4DF60041478A /* GameScene.swift */,
+				073C68491B3D6B5200AC5C18 /* Shared.swift */,
+				0756D8451B3C6BE8008C978D /* PlayScene.swift */,
+				0756D84A1B3C6C8A008C978D /* TutorialScene.swift */,
+				0756D8471B3C6C03008C978D /* MoreScene.swift */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
 		07BAF54B1B3B4DF60041478A = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +145,14 @@
 		07BAF5561B3B4DF60041478A /* Spinny! */ = {
 			isa = PBXGroup;
 			children = (
-				07BAF5591B3B4DF60041478A /* AppDelegate.swift */,
-				07BAF55B1B3B4DF60041478A /* GameScene.sks */,
-				07BAF55D1B3B4DF60041478A /* GameScene.swift */,
+				07CC03FF1B3D8C06009E71CE /* Particles */,
+				0756D8491B3C6C23008C978D /* Scenes */,
 				07BAF55F1B3B4DF60041478A /* GameViewController.swift */,
-				07BAF5611B3B4DF60041478A /* Main.storyboard */,
+				0756D84E1B3C6D2B008C978D /* Wheel.swift */,
+				0756D8501B3C6D4F008C978D /* Ball.swift */,
+				0756D84C1B3C6CD6008C978D /* Physics.swift */,
+				07BAF5591B3B4DF60041478A /* AppDelegate.swift */,
 				07BAF5641B3B4DF60041478A /* Images.xcassets */,
-				07BAF5661B3B4DF60041478A /* LaunchScreen.xib */,
 				07BAF5571B3B4DF60041478A /* Supporting Files */,
 			);
 			path = "Spinny!";
@@ -96,6 +161,17 @@
 		07BAF5571B3B4DF60041478A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				07B2419D1B3DE5A800167FB6 /* music.mp3 */,
+				07B2419E1B3DE5A800167FB6 /* hit.mp3 */,
+				07B2419F1B3DE5A800167FB6 /* fail.mp3 */,
+				07B241A61B3DE76700167FB6 /* pop.mp3 */,
+				074194371B3ECB6C003BE040 /* count.mp3 */,
+				07CBAE2F1B402D6700FAE444 /* miss.mp3 */,
+				07B241A91B3DEA0C00167FB6 /* click.mp3 */,
+				0756D8431B3C6BB6008C978D /* Extensions.swift */,
+				07BAF5661B3B4DF60041478A /* LaunchScreen.xib */,
+				07BAF5611B3B4DF60041478A /* Main.storyboard */,
+				07BAF55B1B3B4DF60041478A /* GameScene.sks */,
 				07BAF5581B3B4DF60041478A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -116,6 +192,24 @@
 				07BAF5721B3B4DF70041478A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07CC03FF1B3D8C06009E71CE /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				07CC03F91B3D89A7009E71CE /* BlueParticle.sks */,
+				07CC04001B3D8C7F009E71CE /* YellowParticle.sks */,
+				07CC04011B3D8C7F009E71CE /* GreenParticle.sks */,
+				07CC04021B3D8C7F009E71CE /* RedParticle.sks */,
+				07CC04061B3D8C8E009E71CE /* greenSpark.png */,
+				07CC04071B3D8C8E009E71CE /* yellowSpark.png */,
+				07CC04081B3D8C8E009E71CE /* redSpark.png */,
+				07CC040C1B3D8EBF009E71CE /* blueSpark.png */,
+				07CC040E1B3D935C009E71CE /* MagicParticle.sks */,
+				07CC040F1B3D935C009E71CE /* spark.png */,
+				07B2419B1B3D9B6B00167FB6 /* MagicDarkParticle.sks */,
+			);
+			name = Particles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +261,7 @@
 				TargetAttributes = {
 					07BAF5531B3B4DF60041478A = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = C3VKVFB3SA;
 					};
 					07BAF56C1B3B4DF70041478A = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -198,9 +293,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074194381B3ECB6C003BE040 /* count.mp3 in Resources */,
 				07BAF5681B3B4DF60041478A /* LaunchScreen.xib in Resources */,
+				07B241AA1B3DEA0C00167FB6 /* click.mp3 in Resources */,
 				07BAF5651B3B4DF60041478A /* Images.xcassets in Resources */,
+				07B241A31B3DE5A800167FB6 /* fail.mp3 in Resources */,
+				07CC04031B3D8C7F009E71CE /* YellowParticle.sks in Resources */,
+				07B241A81B3DE76700167FB6 /* pop.mp3 in Resources */,
+				07CC04111B3D935C009E71CE /* spark.png in Resources */,
+				07CC040A1B3D8C8E009E71CE /* yellowSpark.png in Resources */,
+				07CC03FB1B3D89A7009E71CE /* BlueParticle.sks in Resources */,
+				07B241A21B3DE5A800167FB6 /* hit.mp3 in Resources */,
+				07CC040D1B3D8EBF009E71CE /* blueSpark.png in Resources */,
+				07B2419C1B3D9B6B00167FB6 /* MagicDarkParticle.sks in Resources */,
+				07B241A11B3DE5A800167FB6 /* music.mp3 in Resources */,
 				07BAF55C1B3B4DF60041478A /* GameScene.sks in Resources */,
+				07CC04041B3D8C7F009E71CE /* GreenParticle.sks in Resources */,
+				07CBAE301B402D6700FAE444 /* miss.mp3 in Resources */,
+				07CC040B1B3D8C8E009E71CE /* redSpark.png in Resources */,
+				07CC04051B3D8C7F009E71CE /* RedParticle.sks in Resources */,
+				07CC04091B3D8C8E009E71CE /* greenSpark.png in Resources */,
+				07CC04101B3D935C009E71CE /* MagicParticle.sks in Resources */,
 				07BAF5631B3B4DF60041478A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +332,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0756D84F1B3C6D2B008C978D /* Wheel.swift in Sources */,
 				07BAF55E1B3B4DF60041478A /* GameScene.swift in Sources */,
+				0756D8511B3C6D4F008C978D /* Ball.swift in Sources */,
+				0756D8481B3C6C03008C978D /* MoreScene.swift in Sources */,
+				0756D8461B3C6BE8008C978D /* PlayScene.swift in Sources */,
+				0756D84D1B3C6CD6008C978D /* Physics.swift in Sources */,
+				0756D84B1B3C6C8A008C978D /* TutorialScene.swift in Sources */,
 				07BAF5601B3B4DF60041478A /* GameViewController.swift in Sources */,
 				07BAF55A1B3B4DF60041478A /* AppDelegate.swift in Sources */,
+				073C684A1B3D6B5200AC5C18 /* Shared.swift in Sources */,
+				0756D8441B3C6BB6008C978D /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Spinny!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -358,6 +480,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Spinny!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -417,6 +540,7 @@
 				07BAF5791B3B4DF70041478A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07BAF57A1B3B4DF70041478A /* Build configuration list for PBXNativeTarget "Spinny!Tests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +549,7 @@
 				07BAF57C1B3B4DF70041478A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
